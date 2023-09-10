@@ -28,7 +28,7 @@ The repository is organized as follows:
 
 To run this project, you'll need Python and the required packages. You can install the dependencies using pip:
 
-```bash
+
 pip install -r requirements.txt
 Usage
 Data Preparation: Prepare your historical stock price data in a CSV format with columns like 'Date,' 'Open,' 'High,' 'Low,' 'Close,' 'Adj Close,' and 'Volume.'

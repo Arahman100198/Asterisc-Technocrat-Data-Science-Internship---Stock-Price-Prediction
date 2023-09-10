@@ -30,22 +30,25 @@ To run this project, you'll need Python and the required packages. You can insta
 
 
 pip install -r requirements.txt
-Usage
-Data Preparation: Prepare your historical stock price data in a CSV format with columns like 'Date,' 'Open,' 'High,' 'Low,' 'Close,' 'Adj Close,' and 'Volume.'
+## Usage
+### Data Preparation:
+Prepare your historical stock price data in a CSV format with columns like 'Date,' 'Open,' 'High,' 'Low,' 'Close,' 'Adj Close,' and 'Volume.'
 
-Data Preprocessing: Use the provided data preprocessing scripts or customize them to suit your dataset.
+#### Data Preprocessing:
+Use the provided data preprocessing scripts or customize them to suit your dataset.
 
-Training: Train the LSTM model using the training script. Adjust hyperparameters and model architecture as needed.
-Evaluation: Evaluate the model on test data and analyze the results.
-Visualization: Visualize the model's performance using the provided scripts or create your visualizations.
-Data
+#### Training:
+Train the LSTM model using the training script. Adjust hyperparameters and model architecture as needed.
+#### Evaluation:
+Evaluate the model on test data and analyze the results.
+#### Visualization:
+Visualize the model's performance using the provided scripts or create your visualizations.
+#### Data
 Sample historical stock price data can be found in the data/ directory. Replace this data with your own dataset for custom predictions.
-
-Model
+#### Model
 The LSTM model for stock price prediction can be found in the models/ directory. Feel free to modify the model architecture and hyperparameters for experimentation.
-
-Contributing
+#### Contributing
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit pull requests.
 
-Acknowledgments
+#### Acknowledgments
 I would like to express my gratitude to the team at Asterisc Technocrat for providing me with the opportunity to work on this exciting project during my internship.
